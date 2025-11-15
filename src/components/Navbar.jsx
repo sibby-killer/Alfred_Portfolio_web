@@ -39,10 +39,15 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div 
-            className="text-2xl font-bold gradient-text cursor-hover"
+            className="flex items-center cursor-hover"
             onClick={() => scrollToSection('hero')}
           >
-            AN
+            <img 
+              src="/me.jpg" 
+              alt="Alfred Nyongesa" 
+              className="w-10 h-10 rounded-full border-2 border-accent mr-3 hover:scale-110 transition-transform duration-300"
+            />
+            <span className="text-2xl font-bold gradient-text">Alfred</span>
           </div>
 
           {/* Desktop Navigation */}
