@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Code, Server, Database, Tool } from 'lucide-react';
+import { Code, Server, Database, Settings } from 'lucide-react';
 import { sectionAnimations, interactiveAnimations } from '../utils/animations';
 
 const Skills = () => {
@@ -75,7 +75,7 @@ const Skills = () => {
     },
     {
       title: "Tools & Others",
-      icon: <Tool className="w-8 h-8" />,
+      icon: <Settings className="w-8 h-8" />,
       color: "from-green-400 to-blue-400",
       skills: [
         "Git & GitHub",
