@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { ExternalLink, Github, Brain, Shield, Smartphone } from 'lucide-react';
+import { ExternalLink, Github, Brain, Shield, Smartphone, Monitor } from 'lucide-react';
 import { sectionAnimations, interactiveAnimations } from '../utils/animations';
 
 const Projects = () => {
@@ -63,19 +63,19 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "SecureAuth Dashboard",
-      description: "Modern authentication system with advanced security features, user management, and real-time monitoring capabilities.",
+      title: "3D Portfolio Website",
+      description: "Modern portfolio website showcasing full-stack development skills with glassmorphism effects, 3D animations, and smooth user interactions.",
       image: "/api/placeholder/600/400",
-      techStack: ["React", "Express.js", "JWT", "MongoDB", "Tailwind CSS"],
+      techStack: ["React", "Vite", "Tailwind CSS", "Anime.js", "Three.js"],
       features: [
-        "Multi-factor authentication",
-        "User role management",
-        "Activity monitoring",
-        "Secure API endpoints"
+        "3D animations and effects",
+        "Glassmorphism design",
+        "Responsive mobile-first design",
+        "WhatsApp contact integration"
       ],
-      liveDemo: "#",
-      github: "#",
-      icon: <Shield className="w-6 h-6" />,
+      liveDemo: "https://alfred-portfolio-web.vercel.app",
+      github: "https://github.com/sibby-killer/Alfred_Portfolio_web",
+      icon: <Monitor className="w-6 h-6" />,
       gradient: "from-purple-400 to-pink-400",
       featured: false
     },
